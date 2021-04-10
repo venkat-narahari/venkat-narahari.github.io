@@ -1,0 +1,17 @@
+
+/* TEAM */
+
+	Owner, Designer and Developer: Venkat Ramana Reddy Narahari
+	Contact: https://www.linkedin.com/in/venkatnarahari/
+	From: Hyderabad, Telangana, India
+
+/* SITE */
+	Last update: March 21, 2021
+	Language: English
+	Doctype:HTML5
+	Code editor: Notepad++
+
+/* TECHNOLOGY COLOPHON */
+
+    CSS3, HTML5, JavaScript, MarkDown
+    Apache Server Configs, jQuery, Modernizr, Normalize.css, HTML5Boilerplate
