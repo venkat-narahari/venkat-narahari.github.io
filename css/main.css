@@ -13,20 +13,21 @@ h1 {
 	font-size: 10vh;
 }
 
-/* Unvisited Link */
+/* Anchor Unvisited, Visited and Active Link */
 a, a:link, a.visited, a.active{
 	color: inherit;
 	text-decoration: none;
 }
 
-/* Mouse Over Link */
+/* Anchor Mouse Over Link */
 a:hover {
-	color: #0000ff;
+	color: inherit;
 	text-decoration: none;
 	font-size: 24px;
 	padding: 0px;
 }
 
+/*Body Content Styles*/
 .body-parent {
 	top: 30vh;
 	position: absolute;
@@ -43,6 +44,7 @@ a:hover {
 	-moz-animation-fill-mode: backwards;
 }
 
+/*Body Content Animation On Load*/
 @keyframes zoomIn {
 	0% {
 		opacity: 0;
@@ -76,6 +78,8 @@ a:hover {
 	
 }
 
+
+/*Photo Styles*/
 .personal-photo-parent {
 	background-image: url('/assets/img/personal-photo.svg');
 	background-repeat: no-repeat;
@@ -87,6 +91,7 @@ a:hover {
 	border-radius: 50%;
 }
 
+/*Name Styles*/
 .main-name-parent {
 	margin: 0 auto;
 	padding-bottom: 5vh;
@@ -107,6 +112,8 @@ a:hover {
 	border-style: solid;
 }
 
+
+/*Icon Parent Block Styles*/
 .social-parent {
 	margin: 0 auto;
 	text-align: center;
@@ -119,6 +126,7 @@ a:hover {
 	padding-left: 1vw;
 }
 
+/*Icon Styles*/
 .fab, .fas {
 	font-size: 20px;
 	padding: 4px;
