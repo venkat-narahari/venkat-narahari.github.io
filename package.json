@@ -1,0 +1,17 @@
+{
+  "name": "Venkat Ramana Reddy Narahari",
+  "version": "2.0.0",
+  "description": "Venkat Ramana Reddy Narahari",
+  "keywords": "",
+  "license": "GNU General Public License v3.0",
+  "author": "Venkat Ramana Reddy Narahari",
+  "scripts": {
+    "build": "parcel build index.html",
+    "dev": "parcel index.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}

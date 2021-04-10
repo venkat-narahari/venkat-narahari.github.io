@@ -1,0 +1,193 @@
+/*Body Style*/
+html, body{
+	height: 100%;
+	background-color: #ffffff;
+	margin: 0 0 0 0;
+}
+
+/*Text Style*/
+h1 {
+	text-align: center;
+	margin: 0 0 0 0;
+	font-family: 'Raleway', sans-serif;
+	font-size: 10vh;
+}
+
+/* Unvisited Link */
+a:link {
+	color: none;
+	text-decoration: none;
+}
+
+/* Visited Link */
+a:visited {
+	color: #ff0000;
+	text-decoration: none;
+}
+
+/* Mouse Over Link */
+a:hover {
+	color: #0000ff;
+	text-decoration: none;
+	font-size: 24px;
+	padding: 0px;
+}
+
+/* Selected Link */
+a:active {
+	color: #00ff00;
+	text-decoration: none;
+}
+
+.body-parent {
+	top: 30vh;
+	position: absolute;
+	display: inline-block;
+	width: 100%;
+	animation-name: zoomIn;
+	-webkit-animation-name: zoomIn;
+	-moz-animation-name: zoomIn;
+	animation-duration: 0.5s;
+	-webkit-animation-duration: 0.5s;
+	-moz-animation-duration: 0.5s;
+	animation-fill-mode: backwards;
+	-webkit-animation-fill-mode: backwards;
+	-moz-animation-fill-mode: backwards;
+}
+
+@keyframes zoomIn {
+	0% {
+		opacity: 0;
+		transform: scale3d(.3, .3, .3);
+		-webkit-transform: scale3d(.3, .3, .3);
+		-moz-transform: scale3d(.3, .3, .3);
+	}
+	50% {
+		opacity: 0.5;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+
+@media only screen and (max-width: 1024px) {
+	
+	h1 {
+		text-align: center;
+		margin: 0 0 0 0;
+		font-family: 'Raleway', sans-serif;
+		font-size: 7vh;
+	}
+	.body-parent {
+		top: 20vh;
+		position: absolute;
+		display: inline-block;
+		width: 100%;
+	}
+	
+}
+
+.personal-photo-parent {
+	background-image: url('/assets/img/personal-photo.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	height: 25vh;
+	width: 25vh;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+.main-name-parent {
+	margin: 0 auto;
+	padding-bottom: 5vh;
+	padding-top: 2.5vh;
+}
+
+.main-line-parent {
+	margin: 0 auto;
+}
+
+.main-line {
+	margin: 0 auto;
+	height: 0.75px;
+	width: 120px;
+	text-align: center;
+	color: #000000;
+	background-color: #000000;
+	border-style: solid;
+}
+
+.social-parent {
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 5vh;
+}
+
+.social {
+	margin: 0 auto;
+	padding-right: 1vw;
+	padding-left: 1vw;
+}
+
+.fab, .fas {
+	font-size: 20px;
+	padding: 4px;
+}
+
+.fa-linkedin {
+	color: #006192;
+}
+
+.fa-stack-overflow {
+	color: F48024;
+}
+
+.fa-github {
+	color: #333333;
+}
+
+.fa-twitter {
+	color: #1DA1F2;
+}
+
+.fa-facebook {
+	color: #1778F2;
+}
+
+.fa-instagram {
+	color: #DD2A7B;
+}
+
+.fa-youtube {
+	color: #FF0000;
+}
+
+.fa-play-circle {
+	color: #FF0000;
+}
+
+.fa-blogger {
+	color: #FF5722;
+}
+
+.fa-pinterest {
+	color: #F0002A;
+}
+
+.fa-reddit {
+	color: #FF4500;
+}
+
+.fa-stack-exchange {
+	color: #1f5296;
+}
+
+.fa-quora {
+	color: #b92b27;
+}
+
+.fa-discord {
+	color: #738ADB;
+}
