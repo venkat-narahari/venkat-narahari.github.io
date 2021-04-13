@@ -1,7 +1,7 @@
 /*Body Style*/
 html, body{
 	height: 100%;
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 	margin: 0 0 0 0;
 }
 
@@ -144,6 +144,10 @@ a:hover {
 	color: #333333 !important;
 }
 
+.fa-docker {
+	color: #0DB7ED !important;
+}
+
 .fa-twitter {
 	color: #1DA1F2 !important;
 }
@@ -177,11 +181,11 @@ a:hover {
 }
 
 .fa-stack-exchange {
-	color: #1f5296 !important;
+	color: #1F5296 !important;
 }
 
 .fa-quora {
-	color: #b92b27 !important;
+	color: #B92B27 !important;
 }
 
 .fa-discord {
